@@ -1,0 +1,42 @@
+@page
+@model CineMania.Pages.Movies.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h4>@Model.Movie.Title</h4>
+    <hr />
+    <dl class="row">
+        <div class="col-md-3">
+            <img class="img-fluid" src="/images/posters/@Model.Movie.ImageName" alt="">
+        </div>
+        <div class="col-md-6">
+            <h5>Synopsis</h5>
+            <p>@Model.Movie.Description</p>
+        </div>
+        
+        <div class="col-md-3">
+            <h5>Related Movies</h5>
+             <div class="col-md-3">
+                        <h5>Related Movies</h5>
+                        @foreach (var m in @Model.RelatedMovie)
+                        {
+                            //here you have to design how your data will be looking like, just want to show you
+                            // a single hit of how data will be fetched...
+                            
+                            <img class="img-fluid" src="/images/posters/@m.ImageName" alt="">
+                            <p>@m.Title</p>
+                                       
+                        }
+                    </div>
+        </div>
+        
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Movie.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
