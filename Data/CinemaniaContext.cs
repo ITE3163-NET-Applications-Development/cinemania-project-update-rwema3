@@ -10,7 +10,8 @@ namespace CineMania.Data
         {
             
         }
-
+        
+        public DbSet<Contact> Contact { get; set; }
         public DbSet<Movie> Movies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -92,6 +93,7 @@ namespace CineMania.Data
           
             modelBuilder.Entity<Movie>().HasData(movies);
             base.OnModelCreating(modelBuilder);
+            
         }
     }
 }
