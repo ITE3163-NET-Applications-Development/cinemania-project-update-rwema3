@@ -2,6 +2,7 @@ using System;
 using CineMania.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace CineMania.Data
 {
     public class CinemaniaContext : DbContext
@@ -88,7 +89,101 @@ namespace CineMania.Data
                     ImageName = "rocky.jpg",
                     Genre = "Drama",
                     ReleaseDate = DateTime.Parse("1976-11-29")
-                }
+                },
+                new Movie
+                {
+                    Id = 8,
+                    Title = "The Father Movie",
+                    Description = "Anthony’s (Hopkins) reluctance to be looked after by a carer, makes him increasingly vulnerable to the tricks that his mind plays on him. Writer-director Florian Zeller takes us on a chilling ride into Anthony’s volatile world, as he struggles to come to terms with the reality of his mental " +
+                                  "health condition that has blurred the lines between his past, present and future.",
+                    ImageName = "movieone",
+                    Genre = "Drama",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 9,
+                    Title = "The Conjuring",
+                    Description = "Paranormal investigators Ed and Lorraine Warren are up against one of the most evil and demonic forces, who will stop at nothing to accomplish its unholy mission. Fighting this evil entity could take everything they have.",
+                    Genre = "Action",
+                    ImageName = "movietwo.jpg",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 10,
+                    Title = "Minari Movie",
+                    Description = "Minari is a semi-autobiographical take on writer and director Lee Isaac Chung’s life in a family of Korean immigrants in Arkansas in the 1980s. The story follows the Yi family — father (Steven Yeun), mother, their two children, and grandmother — who move to Arkansas where the dad decides to become a farmer. His former job as a chicken sexer doesn’t pay him much.",
+                    ImageName = "moviethree.jpg",
+                    Genre = "Action",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 11,
+                    Title = "Nomadland Movie",
+                    Description = "Following the death of her husband and losing her livelihood to the Great Recession, Fern (Frances McDormand), a woman in her 60’s, converts her RV van into her home and opts for a nomadic life. She wanders through the vast expanses of the US, taking up seasonal low-wage jobs to sustain her minimalistic lifestyle",
+                    ImageName = "moviefour.jpg",
+                    Genre = "Romantic",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 12,
+                    Title = "Raya And The Last Dragon Movie",
+                    Description = "Some five hundred years after the ominous dark monsters called the Druun, return to wreak havoc on earth, it's up to Raya, an intrepid warrior princess to track down the last dragon and put a definite end to the Druun terror.",
+                    ImageName = "moviefive.jpg",
+                    Genre = "Horror",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 13,
+                    Title = "Judas And The Black Messiah",
+                    Description = "A petty car thief Bill O’Neal becomes an FBI informant and agrees to infiltrate a black revolutionary party called ‘The Black Panthers,’ in exchange for his freedom. But will he come out unscathed from the consequences of his actions, at a time when white-supremacy and police action against the black revolutionaries was at its peak, in the late-1960s Chicago?",
+                    ImageName = "moviesix.jpg",
+                    Genre = "Horror",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 14,
+                    Title = "Our Friend",
+                    Description = "Based on a true story - when the Teague family is devastated by life-altering news, their friend decides to put his life on hold to live with them.",
+                    ImageName = "movieseven.jpg",
+                    Genre = "Series",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 15,
+                    Title = "The Croods",
+                    Description = "The Croods, who are in search of a safer habitat, chance upon a walled lush green oasis, built by the more sophisticated Bettermans. They are welcomed at first, but when the Croods patriarch Grug eats a forbidden fruit, all hell breaks loose.",
+                    ImageName = "movieeight.jpg",
+                    Genre = "Horror",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 16,
+                    Title = "The Mauritanian",
+                    Description = "Paranormal investigators Ed and Lorraine Warren are up against one of the most evil and demonic forces, who will stop at nothing to accomplish its unholy mission." +
+                                  " Fighting this evil entity could take everything they have.",
+                    ImageName = "movienine.jpg",
+                    Genre = "Romantic",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                new Movie
+                {
+                    Id = 17,
+                    Title = "Godzilla Vs. Kong Movie",
+                    Description = "Kong needs to protect the planet from Godzilla, who goes on an unprovoked rampage.",
+                    ImageName = "movieten.jpg",
+                    Genre = "Action",
+                    ReleaseDate = DateTime.Parse("1976-11-29")
+                },
+                
+
             };
           
             modelBuilder.Entity<Movie>().HasData(movies);
