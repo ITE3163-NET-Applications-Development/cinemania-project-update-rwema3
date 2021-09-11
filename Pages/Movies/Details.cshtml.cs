@@ -32,13 +32,17 @@ namespace CineMania.Pages.Movies
             }
 
             Movie = await _context.Movies.FirstOrDefaultAsync(m => m.Id == id);
+            
+            
             //focus on this line downhere
             RelatedMovie = await _context.Movies.Where(m => m.Genre == Movie.Genre).
+                Where(m => m.Id != Movie.Id).
                 ToListAsync();
             if (Movie == null && RelatedMovie == null)
             {
                 return NotFound();
             }
+            
             return Page();
         }
         
