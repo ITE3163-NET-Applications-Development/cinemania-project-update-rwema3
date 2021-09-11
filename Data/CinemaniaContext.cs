@@ -36,7 +36,7 @@ namespace CineMania.Data
                     Description = "A family man is drafted to fight in a future war where " +
                                   "the fate of humanity relies on his ability to confront the past.",
                     ImageName = "the_tomorrow_war.jpg",
-                    Genre = "Sci-Fi",
+                    Genre = "Action",
                     ReleaseDate = DateTime.Parse("2021-07-02")
                 },
                 new Movie
@@ -47,7 +47,7 @@ namespace CineMania.Data
                                   "her school's all-girls singing group. Injecting some much needed energy into " +
                                   "their repertoire, The Bellas take on their male rivals in a campus competition",
                     ImageName = "black_widow.jpg",
-                    Genre = "Comedy",
+                    Genre = "Action",
                     ReleaseDate = DateTime.Parse("2013-09-24")
                 },
                 new Movie
@@ -57,7 +57,7 @@ namespace CineMania.Data
                     Description = "A family falls victim to a group of mutated cannibals " +
                                   "in a desert far away from civilization.",
                     ImageName = "hills_have_eyes.jpg",
-                    Genre = "Horror",
+                    Genre = "Action",
                     ReleaseDate = DateTime.Parse("2006-11-11")
                 },
                 new Movie
@@ -77,7 +77,7 @@ namespace CineMania.Data
                     Description = "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of " +
                                   "diner bandits intertwine in four tales of violence and redemption.",
                     ImageName = "pulp_fiction.jpg",
-                    Genre = "Crime",
+                    Genre = "Animation",
                     ReleaseDate = DateTime.Parse("1994-12-05")
                 },
                 new Movie
@@ -87,7 +87,7 @@ namespace CineMania.Data
                     Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion " +
                                   "in a bout in which he strives to go the distance for his self-respect.",
                     ImageName = "rocky.jpg",
-                    Genre = "Drama",
+                    Genre = "Animation",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 new Movie
@@ -96,7 +96,7 @@ namespace CineMania.Data
                     Title = "The Father Movie",
                     Description = "Anthony’s (Hopkins) reluctance to be looked after by a carer, makes him increasingly vulnerable to the tricks that his mind plays on him. Writer-director Florian Zeller takes us on a chilling ride into Anthony’s volatile world, as he struggles to come to terms with the reality of his mental " +
                                   "health condition that has blurred the lines between his past, present and future.",
-                    ImageName = "movieone",
+                    ImageName = "movione.jpg",
                     Genre = "Drama",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
@@ -105,7 +105,7 @@ namespace CineMania.Data
                     Id = 9,
                     Title = "The Conjuring",
                     Description = "Paranormal investigators Ed and Lorraine Warren are up against one of the most evil and demonic forces, who will stop at nothing to accomplish its unholy mission. Fighting this evil entity could take everything they have.",
-                    Genre = "Action",
+                    Genre = "Drama",
                     ImageName = "movietwo.jpg",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
@@ -115,7 +115,7 @@ namespace CineMania.Data
                     Title = "Minari Movie",
                     Description = "Minari is a semi-autobiographical take on writer and director Lee Isaac Chung’s life in a family of Korean immigrants in Arkansas in the 1980s. The story follows the Yi family — father (Steven Yeun), mother, their two children, and grandmother — who move to Arkansas where the dad decides to become a farmer. His former job as a chicken sexer doesn’t pay him much.",
                     ImageName = "moviethree.jpg",
-                    Genre = "Action",
+                    Genre = "Drama",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 new Movie
@@ -124,7 +124,7 @@ namespace CineMania.Data
                     Title = "Nomadland Movie",
                     Description = "Following the death of her husband and losing her livelihood to the Great Recession, Fern (Frances McDormand), a woman in her 60’s, converts her RV van into her home and opts for a nomadic life. She wanders through the vast expanses of the US, taking up seasonal low-wage jobs to sustain her minimalistic lifestyle",
                     ImageName = "moviefour.jpg",
-                    Genre = "Romantic",
+                    Genre = "Drama",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 new Movie
@@ -151,7 +151,7 @@ namespace CineMania.Data
                     Title = "Our Friend",
                     Description = "Based on a true story - when the Teague family is devastated by life-altering news, their friend decides to put his life on hold to live with them.",
                     ImageName = "movieseven.jpg",
-                    Genre = "Series",
+                    Genre = "Horror",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 new Movie
@@ -160,7 +160,7 @@ namespace CineMania.Data
                     Title = "The Croods",
                     Description = "The Croods, who are in search of a safer habitat, chance upon a walled lush green oasis, built by the more sophisticated Bettermans. They are welcomed at first, but when the Croods patriarch Grug eats a forbidden fruit, all hell breaks loose.",
                     ImageName = "movieeight.jpg",
-                    Genre = "Horror",
+                    Genre = "Series",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 new Movie
@@ -170,7 +170,7 @@ namespace CineMania.Data
                     Description = "Paranormal investigators Ed and Lorraine Warren are up against one of the most evil and demonic forces, who will stop at nothing to accomplish its unholy mission." +
                                   " Fighting this evil entity could take everything they have.",
                     ImageName = "movienine.jpg",
-                    Genre = "Romantic",
+                    Genre = "Series",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 new Movie
@@ -179,7 +179,7 @@ namespace CineMania.Data
                     Title = "Godzilla Vs. Kong Movie",
                     Description = "Kong needs to protect the planet from Godzilla, who goes on an unprovoked rampage.",
                     ImageName = "movieten.jpg",
-                    Genre = "Action",
+                    Genre = "Series",
                     ReleaseDate = DateTime.Parse("1976-11-29")
                 },
                 
